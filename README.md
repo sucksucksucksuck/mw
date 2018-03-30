@@ -1,6 +1,6 @@
 # my-project
 
-> yok
+> MW
 
 ## Build Setup
 
