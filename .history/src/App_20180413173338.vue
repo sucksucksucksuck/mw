@@ -3,7 +3,7 @@
     <header>
       <img src="./assets/images/logo.png" alt="">
       <div class="btn">
-        <router-link to="About">About Us</router-link>
+        <router-link to="Suck">About Us</router-link>
         <router-link to="Help">Help</router-link>
       </div>
     </header>

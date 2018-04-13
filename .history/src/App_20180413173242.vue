@@ -3,8 +3,8 @@
     <header>
       <img src="./assets/images/logo.png" alt="">
       <div class="btn">
-        <router-link to="About">About Us</router-link>
-        <router-link to="Help">Help</router-link>
+        <router-link to="Suck">About Us</router-link>
+        <button type="button">Help</button>
       </div>
     </header>
     <div class="wrap">
@@ -86,7 +86,7 @@
     text-decoration: none;
   }
   .router-link-active {
-    background:#959595 !important;
+    background:#959595;
   }
 
   .wrap {

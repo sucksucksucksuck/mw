@@ -8,10 +8,10 @@
             密码：<input type="text" name="password">
           </div>
           <div class="btns">
-            <button type="button" >
+            <button type="button">
               登录
             </button>
-            <button type="button" @click='register'>
+            <button type="button">
               注册
             </button>
           </div>
@@ -28,8 +28,8 @@ export default {
     }
   },
   methods: {
-    register: function () {
-      this.$router.push({ path: '/register' })
+    sb: function () {
+      this.$router.push({ path: '/suck' })
     }
   }
 }

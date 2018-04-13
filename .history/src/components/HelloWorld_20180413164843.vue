@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     register: function () {
-      this.$router.push({ path: '/register' })
+      this.$router.push({ path: '/suck' })
     }
   }
 }

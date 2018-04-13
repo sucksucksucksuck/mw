@@ -1,6 +1,6 @@
 <template>
     <div class="hello">
-      <h1>{{ msg }}23234</h1>
+      <h1>致力于向广大师生提供最优质的免费打印服务</h1>
     </div>
   </template>
 

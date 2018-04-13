@@ -1,6 +1,9 @@
 <template>
-    <div class="hello">
+    <!-- <div class="hello">
       <h1>{{ msg }}23234</h1>
+    </div> -->
+    <div class="register">
+
     </div>
   </template>
 

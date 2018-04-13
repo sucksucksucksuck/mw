@@ -3,8 +3,8 @@
     <header>
       <img src="./assets/images/logo.png" alt="">
       <div class="btn">
-        <router-link to="About">About Us</router-link>
-        <router-link to="Help">Help</router-link>
+        <router-link to="home" type="button">About Us</router-link>
+        <button type="button">Help</button>
       </div>
     </header>
     <div class="wrap">
@@ -74,7 +74,7 @@
     align-self: flex-end;
   }
 
-  header .btn a {
+  header .btn button {
     margin-left: 15px;
     border: none;
     background: rgba(225, 255, 255, 0.2);
@@ -82,11 +82,9 @@
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     padding: 8px 20px 4px 20px;
+    cursor: pointer;
+    outline: none;
     font-weight: 600;
-    text-decoration: none;
-  }
-  .router-link-active {
-    background:#959595 !important;
   }
 
   .wrap {
